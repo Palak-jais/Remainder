@@ -27,7 +27,7 @@ function Login(){
 
             }             
         catch(err){
-            alert(err.response.data.msg)
+            alert(err)
         }
 
     }
