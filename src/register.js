@@ -26,7 +26,7 @@ function Register(){
             window.location = "/todo";
         }
         catch(err){
-            alert(err.response.data.msg)
+            alert(err)
         }
     }
     return logged?<div className='warn'><h1>You already registered! 😒</h1></div>:<div className='login'>
