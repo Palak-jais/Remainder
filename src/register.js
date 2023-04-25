@@ -21,7 +21,7 @@ function Register(){
     const registerSubmit=async e=>{
         e.preventDefault()
         try{
-            await axios.post("http://localhost:5000/register",{...user})
+            await axios.post("https://remainerbackend.onrender.com/register",{...user})
                 
             alert("Sucessfully registered");
             window.localStorage.setItem("loggedIn",true)
