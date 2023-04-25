@@ -21,7 +21,7 @@ function Login(){
         e.preventDefault()
         try{
            // await axios.post('/user/login',{...user})
-             await axios.post("http://localhost:5000/login", {...user},
+             await axios.post("https://remainerbackend.onrender.com/login", {...user},
              )
              window.localStorage.setItem("loggedIn",true)
              alert("sucessfully login");
