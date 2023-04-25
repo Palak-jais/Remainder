@@ -14,7 +14,7 @@ function Login(){
     const targetValue=(e)=>{
         const{name,value}=e.target;
         setUser({...user,[name]:value})
-       console.log(value)
+       
         
     }
     const loginSubmit=async e=>{
