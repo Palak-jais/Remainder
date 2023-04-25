@@ -25,7 +25,7 @@ function Login(){
              )
              window.localStorage.setItem("loggedIn",true)
              alert("sucessfully login");
-              return navigate("/todo");
+              navigate("/todo");
 
             }             
         catch(err){
