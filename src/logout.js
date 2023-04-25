@@ -15,7 +15,7 @@ function Logout(){
             
             alert("Sucessfully loggedOut");
             window.localStorage.removeItem("loggedIn");
-            return navigate("/todo")
+              return navigate("/login")
 
         }
 
