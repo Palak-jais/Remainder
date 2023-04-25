@@ -2,7 +2,7 @@ import axios from 'axios'
 
 
 
-const baseUrl='https://remainder-backend.onrender.com';
+const baseUrl='https://remainerbackend.onrender.com';
 
 const getAllList=(setList)=>{
      
