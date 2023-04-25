@@ -9,7 +9,7 @@ function Logout(){
         e.preventDefault()
         if(!logged){
             alert("please login to logout!")
-            window.location = "/login";
+              return navigate("/todo")
         }
         else{
             
