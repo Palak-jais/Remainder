@@ -1,6 +1,8 @@
 import React,{ useState} from 'react'
+import {useNavigate} from 'react-router-dom'
 import axios from 'axios'
 function Login(){
+    let navigate=useNavigate();
     const logged=window.localStorage.getItem("loggedIn")
   
     const[user,setUser]=useState({
@@ -23,7 +25,7 @@ function Login(){
              )
              window.localStorage.setItem("loggedIn",true)
              alert("sucessfully login");
-             window.location = "/todo";
+              return navigate("/todo");
 
             }             
         catch(err){
