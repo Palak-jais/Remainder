@@ -1,9 +1,9 @@
 import React  from 'react';
-
+import {useNavigate} from 'react-router-dom'
 
 
 function Logout(){
-    
+     let navigate=useNavigate();
     const logout=(e)=>{
         const logged=window.localStorage.getItem("loggedIn")
         e.preventDefault()
@@ -15,7 +15,7 @@ function Logout(){
             
             alert("Sucessfully loggedOut");
             window.localStorage.removeItem("loggedIn");
-            window.location = "/login";
+            return navigate("/todo")
 
         }
 
