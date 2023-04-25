@@ -1,8 +1,10 @@
 import React,{useState} from 'react'
+import {useNavigate} from 'react-router-dom'
 import axios from 'axios'
 
 
 function Register(){
+    let navigate=useNavigate();
     
     const logged=window.localStorage.getItem("loggedIn")
     const[user,setUser]=useState({
@@ -23,7 +25,7 @@ function Register(){
                 
             alert("Sucessfully registered");
             window.localStorage.setItem("loggedIn",true)
-            window.location = "/todo";
+            return navigate("/todo")
         }
         catch(err){
             alert(err)
