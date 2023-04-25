@@ -231,7 +231,7 @@ span{
     padding: 2px;
     margin:4%;
     text-align: center;
-    width: 200px;
+    width: 170px;
     
   }
   .edit-btn,.done-btn,.remove-btn{
@@ -246,8 +246,17 @@ span{
     margin-left: 2px;
   }
  ul{
-  width: 70%;
-  padding-right:5%;
+  width: 75%;
+  padding-right:2%;
    
  }
+  .login-parent{
+  text-align: center;
+  margin: auto;
+  transform: translateY(30%);
+  width: 280px;
+  padding: 20px;
+  box-shadow: 0pc 10px 30px #9c9c9c;
+  
+}
 }
