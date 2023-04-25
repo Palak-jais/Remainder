@@ -255,8 +255,10 @@ span{
   margin: auto;
   transform: translateY(30%);
   width: 280px;
-  padding: 20px;
+  padding: 10px;
   box-shadow: 0pc 10px 30px #9c9c9c;
   
 }
+  a{
+    font-size:15px;
 }
