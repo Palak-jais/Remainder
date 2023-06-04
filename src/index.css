@@ -231,7 +231,7 @@ span{
     padding: 2px;
     margin:4%;
     text-align: center;
-    width: 170px;
+    width: 210px;
     
   }
   .edit-btn,.done-btn,.remove-btn{
@@ -246,7 +246,7 @@ span{
     margin-left: 2px;
   }
  ul{
-  width: 50%;
+  width: 25%;
   padding-right:2%;
    
  }
@@ -260,6 +260,6 @@ span{
   
 }
   a{
-    font-size:15px;
+    font-size:20px;
 }
 }
