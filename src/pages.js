@@ -15,6 +15,7 @@ function Pages(){
         <Route path="/" element={<Nav/>}>
         <Route path="/" index element={<Home/>} /> 
         <Route path="/todo" index element={<App/>} />  
+           <Route path="/home" index element={<Home/>} /> 
 
         </Route>
         </Routes>
